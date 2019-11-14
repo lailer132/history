@@ -1,0 +1,472 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>PL MOIVES</title>
+<link href="NN.css" rel="stylesheet" type="text/css" />
+<script src="NN.js"></script>
+</head>
+
+<body>
+<!---->
+<!--顶部-->
+    <div class="top">
+    	<div id="topbg" onmousemove="stops()" onmouseout="start()">
+        	<div id="arrow" >
+    		<a class="lt" onclick="per()"><img src="left.png"/></a>
+			<a class="gt" onclick="per1()"><img src="right.png"/></a>
+    		</div>
+            <ul class="bgimg">
+                <li id="li1" onclick="select(this)" style="background:url(01.jpg); background-size:cover;"></li>
+                <li id="li2" onclick="select(this)" style="background:url(02.jpg); background-size:cover;"></li>
+                <li id="li3" onclick="select(this)" style="background:url(03.jpg); background-size:cover;"></li>
+                <li id="li4" onclick="select(this)" style="background:url(04.jpg); background-size:cover;"></li>
+                <li id="li5" onclick="select(this)" style="background:url(05.jpg); background-size:cover;"></li>
+                <li id="li6" onclick="select(this)" style="background:url(06.jpg); background-size:cover;"></li>
+    		</ul>
+        </div>
+        
+        <div class="nav">
+        	<div class="leftnav">
+            	<div class="leftlogo"></div>
+                
+                <ul class="wrapper">
+                    <li onmousemove="changenav('list1','block')" 
+                        onmouseout="changenav('list1','none')">
+                        <span>发现</span>
+                        <ul id="list1">
+                            <li><a href="#">正在热映</a></li>
+                            <li><a href="#">影视达人</a></li>
+                            <li><a href="#">聚焦</a></li>
+                        </ul>
+                    </li>
+                    <li onmousemove="changenav('list2','block')" 
+                        onmouseout="changenav('list2','none')">
+                        <span>最新</span>
+                        <ul id="list2">
+                            <li><a href="#">年度榜单</a></li>
+                            <li><a href="#">热门影评</a></li>
+                            <li><a href="#">影讯&;购票</a></li>
+                        </ul>
+                    </li>
+                     
+                </ul>
+            </div>
+                
+            <div class="rightnav">
+                <div class="logjo">
+                	<div class="login">
+                    <span>登陆</span>
+                    </div>
+                    <div class="join">
+                    <span>注册</span>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        <div class="sspan">
+        	<div style="margin:0 auto; width:500px; height:65px; font-weight:-200; color:#FFF; font-size:40px;"><span>在这里，打开新世界的视窗</span></div>
+        </div>
+        <div class="searc">
+        	<div>
+            	<div style="margin:0 auto; width:620px; height:38px;">
+                	<form  id="nav_searchform" target="iframe1">
+                    <input name="keyword" type="text" class="nav-search-keyword" id="nav_search_keyword"  style=" border:#FFF solid 1px; border-right:none;outline:none;padding:0px 0px;;background:none; margin:0;width:558px; height:36px;" >
+                    <button type="submit" target="iframe1" class="nav-search-submit" style="width:50px; height:38px;border:#FFF solid 1px;margin-left:-5px; color:#FFF;outline:none;background:none;">搜索
+                    </button>
+                    </form>
+                </div>
+                <div></div>
+            </div>
+        </div>
+    </div>
+    
+    
+<!--中部-->
+    <div>
+    	<div class="center">
+        	<div class="topct">
+            	<div class="leftct">
+                <span>热映</span>
+                </div>
+                
+                <div class="rightct">
+                	<div class="join">
+                    <span>全部</span>
+                    </div>
+                    <div class="join">
+                    <span>内地</span>
+                    </div>
+                    <div class="join">
+                    <span>欧美</span>
+                    </div>
+                    <div class="join">
+                    <span>韩国</span>
+                    </div>
+                    <div class="join">
+                    <span>日本</span><!--通宵啊，快点啊-->
+                    </div>
+                </div>
+            </div>
+            
+            <div class="cmain">
+            	<div class="cmainleft">
+                	<div class="lvo">
+                            <div class="vt">
+                            <p>《你的名字》</p>
+                            <p>AZU&amp;Spontania-あなたに愛た</p>
+                            </div>
+                            <video autoplay="autoplay" muted="muted" loop="loop">  
+                                <source src="video/12322682-1hd.mp4" type="video/mp4" >示例视频1</source>  
+                                您的浏览器不支持video标签  
+                            </video>
+                        </div>
+                    
+                </div>
+                <div class="cmainright">
+                	<div class="dul">
+                    	<div class="d">
+                            <div class="dbg" style="background:url(center/01.jpg); background-size:cover;">
+                            	<div class="cmaint">
+                                    <p>罗曼蒂克消亡史</p>
+                                    <p>主演: 葛优 / 章子怡 / 浅野忠信</p>
+                                </div>
+                            </div>
+                            <div class="dli">
+                            <p class="cmainp1">上映日期: 2016-12-16(中国大陆)</p>
+                            	<p class="cmainp2">
+                                	<span class="icon1">3926</span>
+                         			<span class="icon2">25</span>
+                                    <span class="icon3">32</span>
+                            	</p>
+                            <p class="cmainp3">他一直拖到一九四九年五月初才坐上去香港的轮船，算得上真正的末班车。没有人知道他在拖什么或等待什么，我想他自己也未必知道，不过是下意识的拖延。不久他就死在香港，死前再没有值得记述的事件或说过的话...</p>
+                            </div>
+                        </div>
+                        
+                         <div class="d1">
+                            <div class="d1bg" style="background:url(center/02.jpg); background-size:cover;">
+                                <div class="cmaint">
+                                    <p>你的名字。 君の名は</p>
+                                    <p>新海诚</p>
+                                </div>
+                            </div>
+                            <div class="d1li">
+                            <p class="cmainp1">上映日期: 2016-12-02(中国大陆)</p>
+                            	<p class="cmainp2">
+                                	<span class="icon1">6350</span>
+                         			<span class="icon2">38</span>
+                                    <span class="icon3">42</span>
+                            	</p>
+                            <p class="cmainp3">在远离大都会的小山村，住着巫女世家出身的高中女孩宫水三叶（上白石萌音 配音）。校园和家庭的原因本就让她充满烦恼，而近一段时间发生的奇怪事件，又让三叶摸不清头脑。不知从何时起，三叶在梦中就会变成一个住在东京的高中男孩...</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="ful">
+                    	<div class="f">
+                            <div class="fbg" style="background:url(center/03.jpg); background-size:cover;">
+                                <div class="cmaint">
+                                    <p>神奇动物在哪里</p>
+                                    <p>Fantastic Beasts and Where to Find</p>
+                                </div>
+                            </div>
+                            <div class="fli">
+                            <p class="cmainp1">上映日期: 2016-11-25(中国大陆)</p>
+                            	<p class="cmainp2">
+                                	<span class="icon1">4816</span>
+                         			<span class="icon2">25</span>
+                                    <span class="icon3">32</span>
+                            	</p>
+                            <p class="cmainp3">故事发生在1926年的纽约，彼时，麻鸡们对魔法师的抵制达到了最高峰，由玛丽露（萨曼莎·莫顿 Samantha Morton 饰）所领导的反魔法组织活动频繁。与此同时，街头巷尾之中时时发生的种种灾难意外让魔法世界的存在...</p>
+                            </div>
+                        </div>
+                        
+                         <div class="f1">
+                            <div class="f1bg" style="background:url(center/04.jpg); background-size:cover;">
+                            	<div class="cmaint">
+                                    <p>海洋奇缘 Moana</p>
+                                    <p>莫阿娜 / 摩阿娜 / 摩瓦娜</p>
+                                </div>
+                            </div>
+                            <div class="f1li">
+                            <p class="cmainp1">上映日期: 2016-11-25(中国大陆)</p>
+                            	<p class="cmainp2">
+                                	<span class="icon1">3816</span>
+                         			<span class="icon2">15</span>
+                                    <span class="icon3">22</span>
+                            	</p>
+                            <p class="cmainp3">故事最早始于住在风和海的半神毛伊（道恩·强森 Dwayne Johnson 配音），他偷走了女神的特菲堤之心，导致岩浆魔鬼厄卡陷入疯狂的状态，南太平洋各小岛也面临着毁灭的威胁。一千多年后，某座小岛上的酋长女儿莫阿...</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+    
+    
+<!--底部-->
+    <div>
+    	<div class="summary">
+        	<div class="topsm">
+            	<div class="leftsm">
+                	<span>影评</span>
+                </div>
+                
+                <div class="rightsm">
+                	<div class="join">
+                    <span id="time"></span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="smain">
+            	<div class="smainleft">
+                	<div class="manimg">
+                    	<div class="man">
+                       		<div class="man1">
+                            	<div><span class="b1">血战钢锯岭 Hacksaw Ridge (2016)</span></div>
+                            	<div>
+                                    <span class="iconx"></span>
+                                	<span class="b2">8.2</span>
+                                	<span class="b3">6361人评价</span>
+                                </div>
+                                <div class="biao">
+                                	<span>欧美</span>
+                                	<span>惊悚</span>
+                                    <span>新片</span>
+                                    <span>战争</span>
+                                </div>
+                            </div>
+                            <div class="smimg" style="background:url(movep/01.jpg); background-size:cover;"></div>
+                            <div class="man2">这部电影工整的格局，宏大的场面和充沛的感情都足以让人重拾久违的心潮澎湃，尤其是战争题材才能带来的那种感动。宝刀不老的梅尔.吉普森用这份“老派”的扎实再次诠释了“勇敢的心”：真正的勇敢并非骁勇善战，而是无论何时何地都不忘初心，坚守信仰，并秉持自己始终不会放弃的那份纯粹。</div>
+                        </div>
+                    </div>
+                    
+                    <div class="manimg">
+                    	<div class="man">
+                       		<div class="man1">
+                            	<div><span class="b1">长城 The Great Wall</span></div>
+                            	<div>
+                                    <span class="iconx"></span>
+                                	<span class="b2">7.6</span>
+                                	<span class="b3">5361人评价</span>
+                                </div>
+                                <div class="biao">
+                                	<span>剧情</span>
+                                	<span>奇幻</span>
+                                    <span>冒险</span>
+                                    <span>动作</span>
+                                </div>
+                            </div>
+                            <div class="smimg"  style="background:url(movep/02.jpg); background-size:cover;"></div>
+                            <div class="man2">电影《长城》讲述了在古代，一支中国精英部队为保卫人类，在举世闻名的长城上与怪兽饕餮进行生死决战的故事。欧洲雇佣军威廉（马特·达蒙 Matt Damon 饰）与同伴佩罗·托瓦尔（佩德罗·帕斯卡 Pedro Pascal 饰）不远万里来到中国盗取火药配方，意外发现了长城是为...</div>
+                        </div>
+                    </div>
+                    
+                   <div class="manimg">
+                    	<div class="man">
+                       		<div class="man1">
+                            	<div><span class="b1">摆渡人</span></div>
+                            	<div>
+                                    <span class="iconx"></span>
+                                	<span class="b2">8.2</span>
+                                	<span class="b3">6361人评价</span>
+                                </div>
+                                <div class="biao">
+                                	<span>中国</span>
+                                	<span>剧情</span>
+                                    <span>喜剧</span>
+                                    <span>爱情</span>
+                                </div>
+                            </div>
+                            <div class="smimg" style="background:url(movep/03.jpg); background-size:cover;"></div>
+                            <div class="man2">摆渡人是城市里的超级英雄，摆渡就是把人从痛苦中解救出来。用快乐和温暖，抵抗这个世界的悲伤。 
+　　酒吧老板陈末（梁朝伟 饰）和合伙人管春（金城武 饰）就是这座城市的“金牌摆渡人”，他们平...</div>
+                        </div>
+                    </div>
+                    
+                    <div class="manimg">
+                    	<div class="man">
+                       		<div class="man1">
+                            	<div><span class="b1">佩小姐的奇幻城堡</span></div>
+                            	<div>
+                                    <span class="iconx"></span>
+                                	<span class="b2">7.8</span>
+                                	<span class="b3">5361人评价</span>
+                                </div>
+                                <div class="biao">
+                                	<span>剧情</span>
+                                	<span>奇幻</span>
+                                    <span>冒险</span>
+                                </div>
+                            </div>
+                            <div class="smimg" style="background:url(movep/04.jpg); background-size:cover;"></div>
+                            <div class="man2">杰克（阿萨·巴特菲尔德 Asa Butterfield 饰）的爷爷自杰克还小的时候，就会常说床边故事给他听，故事中有许多...</div>
+                        </div>
+                    </div>
+                    
+                </div>
+                
+                <div class="smainright">
+                	<div class="show">
+                        <div class="show1"><!--记得清除border像素-->
+                        	<div class="show1_1">
+                                <div class="show1_1_bg" style="background:url(movep/001.jpg); background-size:cover;">
+                                </div>
+                                <div class="show1_1_li">
+                                <p class="smainp1">萨利机长 Sully</p>
+                            	<p class="smainp2">
+                                	<span class="sicon1">3816</span>
+                         			<span class="sicon2">15</span>
+                                    <span class="sicon3">31</span>
+                            	</p>
+                            	<p class="smainp3">空难史生还奇迹，汤姆·汉克斯实力演绎传奇机长 </p>
+                                </div>
+                            </div>
+                            
+                            <div class="show1_2">
+                                <div class="show1_2_bg" style="background:url(movep/002.jpg); background-size:cover;">
+                                </div>
+                                <div class="show1_2_li">
+                                <p class="smainp1">超级快递</p>
+                            	<p class="smainp2">
+                                	<span class="sicon1">3616</span>
+                         			<span class="sicon2">25</span>
+                                    <span class="sicon3">32</span>
+                            	</p>
+                            	<p class="smainp3">一次派件途中，偶然卷入一起神像争夺事件。他做梦都没想到，遇见了一位神秘性感女郎</p>
+                                </div>
+                            </div>
+                            
+                            <div class="show1_3">
+                                <div class="show1_3_bg" style="background:url(movep/007.jpg); background-size:cover;">
+                                </div>
+                                <div class="show1_3_li">
+                                <p class="smainp1"></p>
+                            	<p class="smainp2">
+                                	<span class="sicon1">5816</span>
+                         			<span class="sicon2">25</span>
+                                    <span class="sicon3">32</span>
+                            	</p>
+                            	<p class="smainp3"></p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="show2"><!--记得清除border像素-->
+                        	<div class="show2_1">
+                                <div class="show2_1_bg" style="background:url(movep/003.jpg); background-size:cover;">
+                                </div>
+                                <div class="show2_1_li">
+                                <p class="smainp1">名侦探柯南:纯黑的恶梦</p>
+                            	<p class="smainp2">
+                                	<span class="sicon1">4816</span>
+                         			<span class="sicon2">25</span>
+                                    <span class="sicon3">32</span>
+                            	</p>
+                            	<p class="smainp3">某个黑夜，一名间谍潜入日本警察机关企图盗取一份机密文件，这份文件内容</p>
+                                </div>
+                            </div>
+                            
+                            <div class="show2_2">
+                                <div class="show2_2_bg" style="background:url(movep/004.jpg); background-size:cover;">
+                                </div>
+                                <div class="show2_2_li">
+                                <p class="smainp1">食人岛</p>
+                            	<p class="smainp2">
+                                	<span class="sicon1">4816</span>
+                         			<span class="sicon2">25</span>
+                                    <span class="sicon3">32</span>
+                            	</p>
+                            	<p class="smainp3">某日，中国东海最深处显现出了一个与世隔绝的美丽小岛。渐渐地开始有好奇者登岛</p>
+                                </div>
+                            </div>
+                            
+                            <div class="show2_3">
+                                <div class="show2_3_bg" style="background:url(movep/008.jpg); background-size:cover;">
+                                </div>
+                                <div class="show2_3_li">
+                                <p class="smainp1">asdasdASasAS</p>
+                            	<p class="smainp2">
+                                	<span class="sicon1">4816</span>
+                         			<span class="sicon2">25</span>
+                                    <span class="sicon3">32</span>
+                            	</p>
+                            	<p class="smainp3">asdasdASasAS</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="show3"><!--记得清除border像素-->
+                        	<div class="show3_1">
+                                <div class="show3_1_bg" style="background:url(movep/005.jpg); background-size:cover;">
+                              </div>
+                                <div class="show3_1_li">
+                                <p class="smainp1">我不是潘金莲</p>
+                            	<p class="smainp2">
+                                	<span class="sicon1">4816</span>
+                         			<span class="sicon2">25</span>
+                                    <span class="sicon3">32</span>
+                            	</p>
+                            	<p class="smainp3">一个普通的农村妇女李雪莲（范冰冰 饰），为了纠正一句话，</p>
+                                </div>
+                          	</div>
+                            
+                            <div class="show3_2">
+                                <div class="show3_2_bg" style="background:url(movep/006.jpg); background-size:cover;">
+                                </div>
+                                <div class="show3_2_li">
+                                <p class="smainp1">生门</p>
+                            	<p class="smainp2">
+                                	<span class="sicon1">4816</span>
+                         			<span class="sicon2">25</span>
+                                    <span class="sicon3">32</span>
+                            	</p>
+                            	<p class="smainp3">中南医院妇产科，形形色色的故事上演从没有停过，5万块钱能救一大两小三条人命</p>
+                                </div>
+                            </div>
+                            
+                            <div class="show3_3">
+                                <div class="show3_3_bg" style="background:url(movep/009.jpg); background-size:cover;">
+                                </div>
+                                <div class="show3_3_li">
+                                <p class="smainp1">asdasdASasAS</p>
+                            	<p class="smainp2">
+                                	<span class="sicon1">4816</span>
+                         			<span class="sicon2">25</span>
+                                    <span class="sicon3">32</span>
+                            	</p>
+                            	<p class="smainp3">asdasdASasAS</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    
+                    <div class="pl">
+                    <a href="#"><img src="movep/JP moives.jpg" /></a>
+                    </div>
+                </div>
+                
+            </div>
+            
+            <div class="foot">
+            	<div class="ftext">
+                	<span style="float:left">© 2016－2026 #.com, all rights reserved 南华工商</span>
+                    <span style="float:right"> 关于南华 · 在南华** · 联系我们 · 免责声明 · 帮助中心 · 移动应用 · 广告</span>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+    
+    
+<!--结尾-->
+    <div >
+    	<div>
+        </div>
+    </div>
+</body>
+</html>
