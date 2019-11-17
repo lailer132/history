@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<title>xiaopang</title>
+<style>
+*{ margin:0; padding:0;}
+html{ cursor:none;}
+body{background:#000;}
+.wrap{width:200px; height:200px; margin:150px auto; perspective:350px; position:relative}
+#cube{ transform-style:preserve-3d; width:200px; height:200px;}
+#cube div{position:absolute; width:200px; height:200px; border:#666 solid 1px; background:url(xiaopang.png) no-repeat; box-shadow:#000 0 0 50px 1px inset; opacity:0.9}
+#cube .box1{transform:translateZ(100px); background:url(xiaopang.png) no-repeat; background-size:100%;}
+#cube .box2{transform:translateX(100px) rotateY(90deg)}
+#cube .box3{transform:translateX(-100px) rotateY(90deg)}
+#cube .box4{transform:translateY(100px) rotateX(90deg)}
+#cube .box5{transform:translateY(-100px) rotateX(90deg)}
+#cube .box6{transform:translateZ(-100px)}
+</style>
+<script>
+	window.onload=function(){
+			document.onmousemove=function(ev)
+			{
+			   var oEvent=ev||event;
+			   var box= document.getElementById('cube');
+			   x=oEvent.clientX/(window.screen.availWidth/36);
+			   y=oEvent.clientY/(window.screen.availHeight/36);
+			   box.style.cssText='transform:rotateY('+10*x+'deg) rotateX('+10*y+'deg);';
+			}
+		}
+</script>
+</head>
+
+<body>
+	<div class="wrap">
+    	<div id="cube">
+            <div class="box1"></div>
+            <div class="box2"></div>
+            <div class="box3"></div>
+            <div class="box4"></div>
+            <div class="box5"></div>
+            <div class="box6"></div>
+        </div>
+    </div>
+</body>
+</html>
