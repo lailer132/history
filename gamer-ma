@@ -1,1 +1,19 @@
-<mxfile host="app.diagrams.net" modified="2021-04-23T16:32:15.467Z" agent="5.0 (Macintosh; Intel Mac OS X 11_2_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36" version="14.5.10" etag="M3stVtQBQ58b3EwsbBqk" type="github"><diagram id="CCWcOCH7d-0iiPtMqafC">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-04-23T17:13:17.826Z" agent="5.0 (Macintosh; Intel Mac OS X 11_2_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36" etag="J4wcMcIpPmYeGNUB-WfX" version="14.5.10" type="github">
+  <diagram id="CCWcOCH7d-0iiPtMqafC" name="草稿">
+    <mxGraphModel dx="450" dy="315" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="mf2MGXGxShItm0djDPsm-1" value="昵称&lt;br&gt;头像&lt;br&gt;信用标签&lt;br&gt;价格&lt;br&gt;描述&lt;br&gt;想要&lt;br&gt;关注" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="90" width="120" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="mf2MGXGxShItm0djDPsm-2" value="案例1&lt;br&gt;&lt;br&gt;&lt;br&gt;������‍♀️代叔叔&lt;br&gt;代肝风神瞳XXXXXXXXXX&lt;br&gt;40元&lt;br&gt;赞｜留言｜想要" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="430" y="90" width="120" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="mf2MGXGxShItm0djDPsm-3" value="案例2&lt;br&gt;&lt;br&gt;&lt;br&gt;������‍♀️代叔叔&lt;br&gt;求奖励号，约今晚&lt;br&gt;40元&lt;br&gt;赞｜留言｜想要" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="90" width="120" height="170" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
