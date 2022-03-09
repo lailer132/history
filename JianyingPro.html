@@ -164,8 +164,8 @@
             if (!srt.content) continue;
             srt.start = segment.target_timerange.start;
             srt.end = srt.start + segment.target_timerange.duration;
-            srt.start = getSrtTimeText(srt.start, milli);
-            srt.end = getSrtTimeText(srt.end, milli);
+            srt.start = getSrtTimeText(srt.start);
+            srt.end = getSrtTimeText(srt.end);
             index++;
             srtText += formatSrt(index, srt);
         }
