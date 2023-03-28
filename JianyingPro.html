@@ -103,10 +103,10 @@
             // Map 结构 = {id1: text1, id2: text2, ...}
             let texts1 = {}, temp1 = temp.materials.texts, showTxt = ''
             for (let i in temp1) {
-                texts1[temp1[i].id] = temp1[i].content;
+                texts1[temp1[i].id] = temp1[i].content.match(/(?<=size=.*?>).*?(?=<\/size>)/g)[0];
             }
             for (let i in texts1) {
-                showTxt += texts1[i] + ","
+                showTxt += texts1[i] + RN
             }
             for (let k in srtFiles) {
                 text = srtFiles[k]; 
@@ -162,6 +162,8 @@
             segment = segments[i];
             srt.content = texts[segment.material_id];
             if (!srt.content) continue;
+            srt.content = srt.content.match(/(?<=size=.*?>).*?(?=<\/size>)/g)[0];
+            console.log(srt.content)
             srt.start = segment.target_timerange.start;
             srt.end = srt.start + segment.target_timerange.duration;
             srt.start = getSrtTimeText(srt.start);
